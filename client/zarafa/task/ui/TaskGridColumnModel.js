@@ -115,7 +115,7 @@ Zarafa.task.ui.TaskGridColumnModel = Ext.extend(Zarafa.common.ui.grid.ColumnMode
 			dataIndex : 'categories',
 			header : _('Categories'),
 			tooltip : _('Sort by: Categories'),
-			renderer : Zarafa.common.ui.grid.Renderers.text
+			renderer : Zarafa.common.ui.grid.Renderers.categories
 		},{
 			dataIndex : 'percent_complete',
 			header : _('% Completed'),
